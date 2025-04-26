@@ -4,10 +4,10 @@ CREATE TABLE tipo_proyecto (
 )
 
 CREATE TABLE proyecto(
-  id_proyecto SERIAL
-  nombre VARCHAR(20)
+  id_proyecto SERIAL,
+  nombre VARCHAR(20),
   fecha_inicio DATE,
-  id_tipo_proyecto
+  id_tipo_proyecto INT
 )
 
 CREATE TABLE usuario(
